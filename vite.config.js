@@ -17,7 +17,6 @@ export default defineConfig({
       external: ['recharts'],  // Add recharts to external
       output: {
         manualChunks: {
-          recharts: ['recharts']
         }
       }
     }
