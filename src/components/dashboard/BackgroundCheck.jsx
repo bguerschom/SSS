@@ -7,7 +7,7 @@ import {
   ChevronDown
 } from 'lucide-react';
 import { collection, addDoc, query, where, getDocs, doc, updateDoc } from 'firebase/firestore';
-import { db } from '../../config/firebase';
+import { db } from '../../firebase/config';
 import Sidebar from '../shared/Sidebar';
 
 // Step definitions
