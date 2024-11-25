@@ -4,7 +4,7 @@ import {
   Calendar, Save, RefreshCw, AlertCircle, CheckCircle,
   ChevronRight, ChevronLeft, Search, Loader
 } from 'lucide-react';
-import { db } from '../../config/firebase';
+import { db } from '../../firebase/config';
 import { collection, addDoc, query, where, getDocs, doc, updateDoc } from 'firebase/firestore';
 import Sidebar from '../shared/Sidebar';
 
